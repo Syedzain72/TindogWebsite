@@ -1,0 +1,167 @@
+body{
+  text-align: center;
+    font-family: "Montserrat";
+}
+
+h1 , h2 , h3 , h4 , h5 , h6{
+    font-family: "Montserrat";
+}
+
+p{
+  color: #8f8f8f;
+  font-family: "Montserrat-Light";
+}
+
+
+
+/* navigation bar*/
+
+.navbar-top{
+ padding: 0 0 3rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-link{
+color: #fff;
+}
+
+.nav-item{
+  padding: 0 18px ;
+  font-family: "Montserrat-Light";
+  font-size: 1.2rem;
+}
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#title
+{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.container-fluid{
+  padding: 2% 13% 7%;
+}
+
+#title .big-heading{
+  text-align: left;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.title-image{
+  transform :rotate(25deg);
+  width: 60%;
+  right: 30%;
+  position: absolute;
+}
+
+/*feature*/
+
+#features{
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+}
+.feature-heading{
+  font-size: 1.3rem;
+}
+
+.feature-box{
+  padding: 5%;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/*testimonial*/
+
+#testimonials{
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.testimonial-text{
+    font-size: 2rem;
+}
+.carousel-item{
+  padding: 7% 20%;
+}
+
+/*press*/
+#press{
+  background-color: #ef8172;
+
+}
+
+.press-logo{
+  width: 13%;
+  margin: 20px 20px;
+  padding-bottom: 3%;
+}
+
+/*pricing*/
+#pricing{
+padding: 100px;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.pricing-para{
+  font-family: "Montserrat-Light";
+  font-size: 1.2rem;
+}
+.pricing-title{
+    font-size: 2rem;
+}
+.pricing-heading{
+    font-size: 1.3rem;
+}
+.pricing-text{
+  font-size: 2rem;
+}
+
+/*cta*/
+#cta{
+  background-color: #ff4c68;
+  padding: 5% 15%;
+}
+.ctah3{
+  color: #fff;
+  font-size: 3.5rem;
+}
+
+/*footer*/
+#footer{
+  padding: 7% 15%;
+}
+.footer-icons{
+  margin: 20px 10px;
+}
+
+
+@media only screen and (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
